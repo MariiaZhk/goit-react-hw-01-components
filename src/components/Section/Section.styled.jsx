@@ -8,6 +8,6 @@ export const Section = styled.section`
   margin: 60px auto;
   padding: ${props => props.theme.spacing(10)};
   border-radius: ${props => props.theme.borderRadius.wrapperBorder};
-  background: ${props => props.theme.colors.white};
+  background-color: ${props => props.theme.colors.white};
   box-shadow: ${props => props.theme.shadows.regular};
 `;

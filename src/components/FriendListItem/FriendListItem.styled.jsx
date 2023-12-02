@@ -3,18 +3,18 @@ import styled from 'styled-components';
 export const FriendListItemStyled = styled.li`
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
-  min-width: 370px;
+  min-width: 360px;
   gap: ${props => props.theme.spacing(5)};
-  padding: 30px;
+  padding: 20px;
   border-radius: ${props => props.theme.borderRadius.itemBorder};
   box-shadow: ${props => props.theme.shadows.small};
   background: ${props => props.theme.colors.avatarBackground};
 `;
 
 export const FriendAvatar = styled.img`
-  width: 200px;
+  width: 180px;
   background: ${props => props.theme.colors.white};
   box-shadow: ${props => props.theme.shadows.small};
   border-radius: ${props => props.theme.borderRadius.itemBorder};
