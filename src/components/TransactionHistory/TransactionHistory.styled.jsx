@@ -9,10 +9,11 @@ export const TableTransactions = styled.table`
   border-radius: ${props => props.theme.borderRadius.itemBorder};
 `;
 
-export const THead = styled.thead``;
+export const THead = styled.thead`
+  background-color: ${props => props.theme.colors.violet};
+`;
 
 export const Tr = styled.tr`
-  background-color: ${props => props.theme.colors.blue};
   text-transform: uppercase;
 `;
 

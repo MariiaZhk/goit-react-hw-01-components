@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
-import { Td, Tr } from './Transaction.styled';
+import { TBody, Td, Tr } from './Transaction.styled';
 
 export const Transaction = ({ items }) => {
   return (
-    <tbody>
+    <TBody>
       {items.map(({ id, type, amount, currency }) => {
         return (
           <Tr key={id}>
@@ -13,7 +13,7 @@ export const Transaction = ({ items }) => {
           </Tr>
         );
       })}
-    </tbody>
+    </TBody>
   );
 };
 

@@ -2,8 +2,9 @@ export const theme = Object.freeze({
   colors: {
     white: '#ffffff',
     gray: '#898888',
+    lightGray: '#e5e2e2',
     avatarBackground: '#c9c7c7',
-    blue: '#558bee',
+    violet: '#444968',
   },
   fontSizes: {
     small: '14px',
