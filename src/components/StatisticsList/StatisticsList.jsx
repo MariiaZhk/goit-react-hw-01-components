@@ -4,7 +4,7 @@ import {
   StatsItem,
   SpanStatsLabel,
   SpanStatsPercentage,
-} from './StatisticsListItem.styled';
+} from './StatisticsList.styled';
 import { getRandomColor } from 'helpers/getRandomColor';
 
 export const StatisticsList = ({ stats }) => {
