@@ -6,11 +6,11 @@ export const Transaction = ({ items }) => {
     <tbody>
       {items.map(({ id, type, amount, currency }) => {
         return (
-          <tr key={id}>
+          <Tr key={id}>
             <Td>{type}</Td>
             <Td>{amount}</Td>
             <Td>{currency}</Td>
-          </tr>
+          </Tr>
         );
       })}
     </tbody>

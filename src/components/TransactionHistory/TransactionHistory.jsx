@@ -1,17 +1,18 @@
 import PropTypes from 'prop-types';
 import { Transaction } from 'components/Transaction/Transaction';
-import { Section } from 'components/Section/Section.styled';
-import { TableTransactions, THead, Th } from './TransactionHistory.styled';
+import { Section } from 'components/SectionStyled/Section.styled';
+import { TableTransactions, THead, Tr, Th } from './TransactionHistory.styled';
+
 export const TransactionHistory = ({ items }) => {
   return (
     <Section>
       <TableTransactions>
         <THead>
-          <tr>
+          <Tr>
             <Th>Type</Th>
             <Th>Amount</Th>
             <Th>Currency</Th>
-          </tr>
+          </Tr>
         </THead>
         <Transaction items={items} />
       </TableTransactions>
