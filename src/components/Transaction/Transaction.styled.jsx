@@ -1,9 +1,8 @@
 import styled from 'styled-components';
 
 export const TBody = styled.tbody`
-  display: table-row-group;
-  vertical-align: middle;
   text-shadow: 1px 1px ${props => props.theme.colors.lightGray};
+  background-color: ${props => props.theme.colors.avatarBackground};
 `;
 
 export const Tr = styled.tr`

@@ -4,7 +4,6 @@ export const TableTransactions = styled.table`
   width: 100%;
   border-collapse: collapse;
   text-align: center;
-  background-color: ${props => props.theme.colors.avatarBackground};
   box-shadow: ${props => props.theme.shadows.small};
   border-radius: ${props => props.theme.borderRadius.itemBorder};
 `;
